@@ -17,7 +17,15 @@
   padding: 0;
 }
 
+/*Todo link e link com hover, está tirando a formatação*/
+a,
+a:hover {
+  color: unset;
+  text-decoration: none;
+}
+
 header {
+  padding: 0 15px;
   height: 70px;
   background-color: var(--color-red);
   display: flex;
@@ -37,7 +45,7 @@ nav h1 {
 }
 
 #pizzas {
-  padding: 20px 0px;
+  padding: 20px 15px;
   background-color: var(--bg-light-gray);
 }
 
@@ -78,7 +86,7 @@ nav h1 {
 }
 
 #comments {
-  padding: 40px 0px;
+  padding: 40px 15px;
   display: flex;
 }
 
@@ -94,4 +102,27 @@ nav h1 {
   color: var(--color-red);
   border-radius: 12px;
   margin-top: 40px;
+}
+
+footer {
+  padding: 0 15px;
+  height: 120px;
+  background-color: var(--color-red);
+  color: var(--color-yellow);
+  /*O display flex trabalha com elementos imediatamente abaixo dele*/
+  display: flex;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content a {
+  font-size: 16px;
+}
+
+.footer-content address {
+  font-size: 16px;
 }
