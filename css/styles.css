@@ -1,0 +1,14 @@
+:root {
+  --color-red: #f03c42;
+  --color-yellow: #fff964;
+  --color-white: #ffffff;
+  --bg-light-gray: #e5e5e5;
+  --text-gray: #5e5e5e;
+}
+header {
+  background-color: var(--color-red);
+}
+
+.pizza-container {
+  max-width: 960px;
+}
